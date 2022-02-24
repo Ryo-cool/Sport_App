@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import { GetStaticProps } from "next";
+import Layout, { siteTitle } from '../components/layout'
 
 type Post = {
   id: number;
@@ -12,19 +13,21 @@ type Props = {
 
 const Home: FC<Props> = (props) => {
   return (
-    <div>
+    <Layout>
       <h2>POSTの一覧</h2>
       <div className="text-red-400">おはよう</div>
-      <h1 className='text-blue-500'>ありがとう</h1>
+      <h1 className='text-blue-800'>ありがとう</h1>
+      <div className='text-green-500'>こんにちは</div>
+      <h2>{siteTitle}</h2>
       <table>
 	{props.posts.map((post) =>
-	  <tr>
+	  <tr key={post.id}>
 	    <td>{post.id}.</td>
 	    <td>{post.title}</td>
 	  </tr>
         )}
       </table>
-    </div>
+    </Layout>
   )
 }
 
