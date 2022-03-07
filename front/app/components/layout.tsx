@@ -2,6 +2,7 @@ import Head from 'next/head'
 // import Image from 'next/image'
 // import styles from './layout.module.css'
 // import utilStyles from '../styles/utils.module.css'
+import Header from '../components/header'
 import Link from 'next/link'
 
 const name = 'Sport app'
@@ -34,16 +35,11 @@ export default function Layout({
         {home ? (
           <>
             <h1 >{name}</h1>
+            <h2>ssss</h2>
           </>
         ) : (
           <>
-            <Link href="/">
-              <a>
-              </a>
-            </Link>
-              <h2>
-                <div className='text-red-400'>ddd</div>
-            </h2>
+            <Header />
           </>
         )}
       </header>

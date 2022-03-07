@@ -13,7 +13,7 @@ type Props = {
 
 const Home: FC<Props> = (props) => {
   return (
-    <Layout>
+    <div>
       <h2>POSTの一覧</h2>
       <div className="text-red-400">おはよう</div>
       <h1 className='text-blue-800'>ありがとう</h1>
@@ -27,7 +27,7 @@ const Home: FC<Props> = (props) => {
 	  </tr>
         )}
       </table>
-    </Layout>
+    </div>
   )
 }
 
