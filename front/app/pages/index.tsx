@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import { GetStaticProps } from "next";
 import Layout, { siteTitle } from '../components/layout'
+import Link from 'next/link';
 
 type Post = {
   id: number;
@@ -19,7 +20,14 @@ const Home: FC<Props> = (props) => {
       <h1 className='text-blue-800'>ありがとう</h1>
       <div className='text-green-500'>こんにちは</div>
       <h2>{siteTitle}</h2>
+      <Link href="sample">
+        sample
+      </Link>
+      <Link href="about">
+        about
+      </Link>
       <table>
+
 	{props.posts.map((post) =>
 	  <tr key={post.id}>
 	    <td>{post.id}.</td>
