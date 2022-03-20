@@ -20,10 +20,10 @@ const Home: FC<Props> = (props) => {
       <h1 className='text-blue-800'>ありがとう</h1>
       <div className='text-green-500'>こんにちは</div>
       <h2>{siteTitle}</h2>
-      <Link href="sample">
+      <Link href="/sample">
         sample
       </Link>
-      <Link href="about">
+      <Link href="/about">
         about
       </Link>
       <table>

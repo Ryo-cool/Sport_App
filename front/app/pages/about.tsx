@@ -1,11 +1,17 @@
 export default function About() {
     return (
         <div>
-        <h1>自己紹介タイトル</h1>
-        <div className="box-border flex items-center justify-center my-0 ml-0 mr-12 p-0 relative">
-          <div className="box-border flex items-center justify-center m-0 p-0 text-center">f</div>    
-        </div>
-        
+          <div className="container mx-auto px-16 bg-slate-100">
+            <div className="grid grid-rows-4 grid-flow-col gap-4">
+              <div className="bg-teal-400 rounded-md col-span-2">01</div>
+              <div className="bg-purple-400 rounded-md">02</div>
+              <div className="bg-red-300 rounded-md">04</div>
+              <div className="bg-red-300 rounded-md">05</div>
+              <div className="bg-red-300 rounded-md">06</div>
+              <div className="bg-red-300 rounded-md">07</div>
+              <div className="bg-red-300 rounded-md">08</div>
+            </div>
+          </div>
         </div>
     )
 }

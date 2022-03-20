@@ -32,16 +32,7 @@ export default function Layout({
         <meta name="og:title" content={siteTitle} />
       </Head>
       <header>
-        {home ? (
-          <>
-            <h1 >{name}</h1>
-            <h2>ssss</h2>
-          </>
-        ) : (
-          <>
-            <Header />
-          </>
-        )}
+        <Header />
       </header>
       <main>{children}</main>
       {!home && (

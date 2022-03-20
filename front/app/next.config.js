@@ -1,10 +1,15 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+// const nextConfig = {
+//   reactStrictMode: true,
+// }
 
 module.exports = {
   reactStrictMode: true,
+  // watch: true,
+  theme: {
+    container: {
+      center: true,
+    }
+  },
 
   webpackDevMiddleware: config => {
     config.watchOptions = {
