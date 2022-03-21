@@ -14,7 +14,7 @@ type Props = {
 
 const Home: FC<Props> = (props) => {
   return (
-    <div className="h-screen bg-slate-100">
+    <div className="container px-16 h-screen bg-slate-100">
       <h2>POSTの一覧</h2>
       <h2>{siteTitle}</h2>
       <Link href="/sample">
