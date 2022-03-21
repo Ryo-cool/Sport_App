@@ -14,11 +14,8 @@ type Props = {
 
 const Home: FC<Props> = (props) => {
   return (
-    <div>
+    <div className="h-screen bg-slate-100">
       <h2>POSTの一覧</h2>
-      <div className="text-red-400">おはよう</div>
-      <h1 className='text-blue-800'>ありがとう</h1>
-      <div className='text-green-500'>こんにちは</div>
       <h2>{siteTitle}</h2>
       <Link href="/sample">
         sample
@@ -26,16 +23,16 @@ const Home: FC<Props> = (props) => {
       <Link href="/about">
         about
       </Link>
-      <table>
+      {/* <table>
 
-	{props.posts.map((post) =>
-	  <tr key={post.id}>
-	    <td>{post.id}.</td>
-	    <td>{post.title}</td>
-	  </tr>
+  {props.posts.map((post) =>
+    <tr key={post.id}>
+      <td>{post.id}.</td>
+      <td>{post.title}</td>
+    </tr>
         )}
-      </table>
-    </div>
+      </table> */}
+  </div>
   )
 }
 
