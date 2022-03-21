@@ -14,7 +14,7 @@ type Props = {
 
 const Home: FC<Props> = (props) => {
   return (
-    <div className="container px-16 h-screen bg-slate-100">
+    <div className="container mx-16 h-screen bg-slate-100">
       <h2>POSTの一覧</h2>
       <h2>{siteTitle}</h2>
       <Link href="/sample">
@@ -23,6 +23,7 @@ const Home: FC<Props> = (props) => {
       <Link href="/about">
         about
       </Link>
+      <input name="name" id="name" type="text" className="appearance-none rounded-full nm-inset-gray-200 leading-5 mx-2 px-8 py-4 flex-grow sm:w-1/3" placeholder="John Doe"></input>
       {/* <table>
 
   {props.posts.map((post) =>

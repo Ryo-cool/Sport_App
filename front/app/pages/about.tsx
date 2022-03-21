@@ -6,13 +6,13 @@ export default function About() {
               <div className="bg-teal-400 rounded-md col-span-2">01</div>
               <div className="bg-purple-400 rounded-md">02</div>
               <div className="bg-red-300 rounded-md">04</div>
-              <div className="bg-red-300 rounded-md">05</div>
-              <div className="bg-red-300 rounded-md">06</div>
-              <div className="bg-red-300 rounded-md">07</div>
-              <div className="bg-red-300 rounded-md">08</div>
-              <div className="w-20 h-40 rounded-full">
-                <div className="flex-1 h-full bg-slate-100 shadow rounded-3xl">ボタン</div>
+              <div className="w-52 h-52 rounded-3xl">
+                <div className="flex-1 h-full bg-slate-100 shadow-lg rounded-full"/>
               </div>
+              <div className="w-52 h-52">
+                <div className="flex-1 h-full bg-indigo-200 shadow-inner rounded-full"/>
+              </div>
+            <div className="nm-concave-red-300-sm rounded-full"></div>
             </div>
           </div>
         </div>
