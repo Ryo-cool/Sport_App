@@ -34,7 +34,7 @@ export default function Layout({
       <header>
         <Header />
       </header>
-      <main>{children}</main>
+      <main className='bg-slate-100'>{children}</main>
       {!home && (
         <div>
           <Link href="/">
