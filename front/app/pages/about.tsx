@@ -9,9 +9,6 @@ export default function About() {
               <div className="w-52 h-52 rounded-3xl">
                 <div className="flex-1 h-full bg-slate-100 shadow-lg rounded-full"/>
               </div>
-              <div className="w-52 h-52">
-                <div className="flex-1 h-full bg-indigo-200 shadow-inner rounded-full"/>
-              </div>
             <div className="nm-concave-red-300-sm rounded-full"></div>
             </div>
           </div>
