@@ -14,7 +14,6 @@ const Header = () => {
 
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           <a className="mr-5 hover:text-gray-900">Third Link</a>
-          <a className="mr-5 hover:text-gray-900">Fourth Link</a>
         </nav>
         <div className="flex justify-center">
           <Link href="/mypage">
