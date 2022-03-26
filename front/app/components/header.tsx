@@ -23,9 +23,11 @@ const Header = () => {
           </Link>
         </div>
         <div className="flex justify-center mx-3 text-blue-300">
-          <button className="rounded-full nm-flat-slate-100 hover:nm-flat-slate-100-lg leading-5 px-8 py-4 uppercase font-bold tracking-widest transition duration-200 ease-in-out transform hover:scale-110">
+          <Link href="/sign_up">
+            <button className="rounded-full nm-flat-slate-100 hover:nm-flat-slate-100-lg leading-5 px-8 py-4 uppercase font-bold tracking-widest transition duration-200 ease-in-out transform hover:scale-110">
             SignUp
-          </button>
+            </button>
+          </Link>
         </div>
       </div>
     </header>
