@@ -20,7 +20,7 @@ export default function SignUp() {
             <label htmlFor="dogs-or-cats" className="uppercase font-bold text-sm tracking-widest mb-1 sm:mb-0 sm:mr-8 sm:w-1/3">Dogs or cats?</label>
             <div className="rounded-full nm-flat-slate-100-lg leading-5 flex-grow sm:w-2/3 relative">
               <select name="dogs-or-cats" id="dogs-or-cats" className="appearance-none w-full px-8 py-4 bg-transparent font-semibold">
-                <option selected="" disabled="">Please select...</option>
+                <option selected={true} disabled={true}>Please select...</option>
                 <option value="dogs">Dogs</option>
                 <option value="cats">Cats</option>
               </select>
