@@ -4,7 +4,7 @@ export default function SignUp() {
       <div className="container h-screen mx-auto px-10 py-12 flex justify-center">
         <div className="nm-flat-slate-100-lg rounded-lg p-8 text-center max-w-xl w-full h-160">
           <h2 className="text-2xl font-bold leading-tight mb-4">Sign Up</h2>
-          <div>
+          <div className="mt-8">
             <label htmlFor="DeGrom" className="uppercase font-bold text-sm tracking-widest mb-1 sm:mb-0 sm:mr-8 sm:w-1/3">Full name</label>
             <input name="DeGrom" id="name" type="text" className="rounded-full nm-inset-slate-100 leading-5 my-4 px-8 py-4 sm:w-2/3" placeholder="Jacob DeGrom"></input>
           </div>
@@ -31,6 +31,11 @@ export default function SignUp() {
                 </svg>
               </div>
             </div>
+          </div>
+          <div className="flex justify-center mx-3 mt-20 text-blue-300">
+              <button className="rounded-full nm-flat-slate-100 hover:nm-flat-slate-100-lg leading-5 px-8 py-4 uppercase font-bold tracking-widest transition duration-200 ease-in-out transform hover:scale-110">
+              Submit
+              </button>
           </div>
           {/* <a href="#" className="rounded-full bg-green-500 shadow-gray-400 leading-5 px-8 py-4 uppercase font-bold tracking-widest text-white inline-block mt-4">Find out more</a> */}
         </div>
