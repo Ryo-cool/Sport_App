@@ -1,7 +1,7 @@
 export default function SignUp() {
   return (
     <div>
-      <div className="container h-screen mx-auto px-10 py-12 flex justify-center">
+      <div className="container h-screen mx-auto px-10 py-12 flex justify-center text-slate-400">
         <div className="nm-flat-slate-100-lg rounded-lg p-8 text-center max-w-xl w-full h-160">
           <h2 className="text-2xl font-bold leading-tight mb-4">Sign Up</h2>
           <div className="mt-8">
@@ -9,7 +9,7 @@ export default function SignUp() {
             <input name="DeGrom" id="name" type="text" className="rounded-full nm-inset-slate-100 leading-5 my-4 px-8 py-4 sm:w-2/3" placeholder="Jacob DeGrom"></input>
           </div>
           <div>
-            <label htmlFor="Judge" className="uppercase font-bold text-sm tracking-widest mb-1 sm:mb-0 sm:mr-8 sm:w-1/4">Full name</label>
+            <label htmlFor="Judge" className="uppercase font-bold text-sm  tracking-widest mb-1 sm:mb-0 sm:mr-8 sm:w-1/4">Full name</label>
             <input name="Judge" id="name" type="text" className="rounded-full nm-inset-slate-100 leading-5 my-4 px-8 py-4 sm:w-2/3" placeholder="Aaron Judge"></input>
           </div>
           <div>
@@ -18,7 +18,7 @@ export default function SignUp() {
           </div>
           <div className="flex flex-col sm:flex-row sm:items-center mt-4">
             <label htmlFor="dogs-or-cats" className="uppercase font-bold text-sm tracking-widest mb-1 sm:mb-0 sm:mr-8 sm:w-1/3">Dogs or cats?</label>
-            <div className="rounded-full nm-flat-slate-100-lg leading-5 flex-grow sm:w-2/3 relative">
+            <div className="rounded-full nm-flat-slate-100-lg leading-5 flex-grow sm:w-1/3 relative mr-7">
               <select name="dogs-or-cats" id="dogs-or-cats" className="appearance-none w-full px-8 py-4 bg-transparent font-semibold">
                 <option selected={true} disabled={true}>Please select...</option>
                 <option value="dogs">Dogs</option>
@@ -32,7 +32,7 @@ export default function SignUp() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center mx-3 mt-20 text-blue-300">
+          <div className="flex justify-center mx-3 mt-20 text-red-400">
               <button className="rounded-full nm-flat-slate-100 hover:nm-flat-slate-100-lg leading-5 px-8 py-4 uppercase font-bold tracking-widest transition duration-200 ease-in-out transform hover:scale-110">
               Submit
               </button>
